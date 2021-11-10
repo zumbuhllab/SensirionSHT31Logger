@@ -4,3 +4,10 @@
  I run this on a [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/).
  
  To find out your device's MAC address and the UUID of the services, use ```systemctl```. Read the [manual](https://www.makeuseof.com/manage-bluetooth-linux-with-bluetoothctl/) here.
+ 
+ ## Run
+ To run this, copy it onto your Raspberry Pi, navigate to the folder, make sensirion.py executable, and execute it.
+ ```
+ sudo chmod +x sensirion.py
+ ./sensirion.py
+ ```
