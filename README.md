@@ -1,5 +1,5 @@
 # Sensirion Thermometer Logger
- Logs temperature data from a Sensirion temperature/humidity [SHT31 Smart Gadget sensor](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT3x_Smart-Gadget_User-Guide.pdf), and log in a MySQL database.
+ Logs temperature data from a Sensirion temperature/humidity [SHT31 Smart Gadget sensor](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT3x_Smart-Gadget_User-Guide.pdf) through the Bluetooth interface, and log in a MySQL database.
  
  I run this on a [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/).
  
