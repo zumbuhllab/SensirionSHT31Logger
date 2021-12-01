@@ -16,7 +16,6 @@ def record_logs(device_name, log_values):
 		
 		for row in log_values:
 			sql += "((SELECT `sensor_id` FROM `sensors` WHERE `sensor_name`='{0:s}' AND machine_id=(SELECT machine_id FROM machines WHERE machine_name='{1:s}')), NOW(),{2:f}),".format(row[0], device_name, row[1])
-		
 		cursor.execute(sql[:-1])
 		con.commit()
 		cursor.close()
