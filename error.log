@@ -1,1 +1,0 @@
-2021-12-01 17:46:56.663693 Error recording logs into the database. device_name=sensirion log_values=[['spin_lab_humidity', 36.15999984741211], ['spin_lab_temperature', 23.8700008392334]] Exception=1045 (28000): Access denied for user 'logger'@'phys-dots-36.physik.unibas.ch' (using password: YES)
